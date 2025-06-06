@@ -8,6 +8,3 @@ from copulalab.copula_calculation import (
 from copulalab import archimedean
 from copulalab import elliptical
 from copulalab import mixed_copulas
-from copulalab.vine_copula_partner_selection import PartnerSelection
-from copulalab.vinecop_generate import (RVineCop, CVineCop)
-from copulalab.vinecop_strategy import CVineCopStrat
