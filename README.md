@@ -6,7 +6,7 @@ The package focuses on building a transparent and modular framework to work with
 
 - **Elliptical Copulas** (Gaussian, Student-t)
 - **Archimedean Copulas** (Clayton, Frank, Gumbel, Joe, N13, N14)
-- **Mixed Copulas** (Vine copulas)
+- **Mixed Copulas**
 
 This package is intended for personal research, academic exploration, and educational purposes, with a focus on clarity, flexibility, and full control over implementation details.
 
