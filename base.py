@@ -288,7 +288,7 @@ class Copula(ABC):
 
         return ax
 
-    def plot_scatter(self, num_points: int = 100) -> Axes:
+    def plot_scatter(self, num_points: int = 100, title: str = "Scatter/heat plot for generated copula samples.") -> Axes:
         """
         Plot copula scatter plot of generated pseudo-observations.
 
@@ -297,8 +297,8 @@ class Copula(ABC):
         """
 
         samples = self.sample(num=num_points)
-        ax = sns.kdeplot(x=samples[:, 0], y=samples[:, 1], shade=True)
-        ax.set_title('Scatter/heat plot for generated copula samples.')
+        ax = sns.kdeplot(x=samples[:, 0], y=samples[:, 1], fill=True)
+        ax.set_title(title)
 
         return ax
 
